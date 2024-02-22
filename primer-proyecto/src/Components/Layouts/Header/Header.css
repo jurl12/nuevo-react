@@ -1,0 +1,9 @@
+Header{
+    background-color:#39a900;
+   
+    width: 300px;
+    height: 160vh;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
