@@ -2,8 +2,38 @@ Header{
     background-color:#39a900;
    
     width: 300px;
-    height: 160vh;
+    height: 100vh;
     flex-direction: column;
     text-align: center;
     align-items: center;
+}
+.nombre{
+ color: white;
+ font-size: 20px;
+}
+
+.todo{
+    list-style: none;
+    font-size: 30px;
+  
+}
+
+hr{
+    height: 5px;
+    background-color: white;
+    width: 70%;
+}
+.todo li a{
+    color: #c1ff95
+}
+.td{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.todoo{
+    background-color: blue;
+    position: relative;
+
 }

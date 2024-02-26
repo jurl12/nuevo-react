@@ -13,16 +13,17 @@ import { Main } from '../../Main/Main'
 
 export const Home = () => {
     return (
-        <div className='todo'>
+        
+        <div className='todoo'>
               <Header>
-              <Logo content={loga}/>
-              <h1>Jorge Andres</h1>
-              <hr />
-              <Items content={"Inicio"}></Items>
+              <div className='td'><Logo content={loga}/>
+              <div className='nombre'><h1>Jorge Andres</h1></div>
+              <hr /></div>
+              <div className='todo'><Items content={"Inicio"}></Items>
               <Items content={"perfil"}></Items>
               <Items content={"proyectos"}></Items>
               <Items content={"Referencias"}></Items>
-              <Items content={"experiencia"}></Items>
+              <Items content={"experiencia"}></Items></div>
               <Logo content={sena} />
           <Navbar>
           </Navbar>
