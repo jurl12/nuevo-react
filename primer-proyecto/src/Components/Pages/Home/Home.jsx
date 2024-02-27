@@ -1,6 +1,8 @@
 import React from 'react'
 import { Logo } from '../../Logo/Logo'
+import{FontAwesomeIcon} from'@fortawesome/react-fontawesome'
 
+import { faInstagram,faLinkedin,faFacebook,faTwitter,faWhatsapp} from '@fortawesome/free-brands-svg-icons'
 import loga from '../../../assets/Perfil.jpg'
 import sena from '../../../assets/logoSena.png'
 import { Items } from '../../Items/Items'
@@ -16,6 +18,7 @@ export const Home = () => {
         
         <div className='todoo'>
               <Header>
+              
               <div className='td'><Logo content={loga}/>
               <div className='nombre'><h1>Jorge Andres</h1></div>
               <hr /></div>
@@ -25,7 +28,15 @@ export const Home = () => {
               <Items content={"Referencias"}></Items>
               <Items content={"experiencia"}></Items></div>
               <Logo content={sena} />
+<div className='iconos'>
+              <FontAwesomeIcon icon={faLinkedin}/>
+              <FontAwesomeIcon icon={faFacebook}/>
+              <FontAwesomeIcon icon={faInstagram}/>
+              <FontAwesomeIcon icon={faTwitter}/>
+              <FontAwesomeIcon icon={faWhatsapp}/>
+              </div>
           <Navbar>
+              <h1>hola</h1>
           </Navbar>
           </Header>
           </div>

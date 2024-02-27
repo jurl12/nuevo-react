@@ -1,0 +1,8 @@
+h1{
+    display: flex;
+   position: relative;
+   left: 100px;
+}
+
+Nav{background-color: blue;
+height: 100px;}
