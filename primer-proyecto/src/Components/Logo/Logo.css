@@ -4,3 +4,10 @@ img{
     border-radius: 50%;
     background-color: white;
 }
+main img{
+    background-color: #c1ff95;
+    height: 2cm;
+    width: 2cm;
+    border-radius: 50px;
+    opacity: 3px;
+}

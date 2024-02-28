@@ -1,7 +1,7 @@
 Header{
     background-color:#39a900;
    
-    width: 300px;
+    width: 25%;
     height: 100vh;
     flex-direction: column;
     text-align: center;
@@ -35,7 +35,7 @@ hr{
 .todoo{
     background-color: blue;
     position: relative;
-
+    display: flex;
 }
 .iconos{
     
@@ -46,4 +46,11 @@ hr{
    width: 70%;
    position: relative;
    left: 38px;
+}
+.to{
+    display: flex;
+}
+.lt{
+    display: flex;
+    align-items: center;
 }
