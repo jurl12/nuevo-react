@@ -1,0 +1,81 @@
+.to{
+    display: flex;
+    width: 20%;
+}
+
+.lt{
+    display: flex;
+    align-items: center;
+    color: grey;
+}
+.raya1{
+    height: 15px;
+    background-color: #c1ff95;
+    width: 85%;
+    border: none;
+}
+
+main {
+    color: grey;
+    width: 100%;
+   
+  } 
+  .cuadro{
+      justify-content: space-around;
+      display: flex;
+      background-color: green;
+      border-radius: 10%;
+      width: 20%;
+      margin: 10px 10px;
+  }
+  .nd{
+      display: flex;
+      flex-direction: column;
+      float: right;
+  }
+  main h1{
+      color: white;
+  }
+  main p{
+    color: white;
+    
+}
+
+.pp{
+    color: black;
+} 
+.log{
+  display: flex;
+  align-items: center;
+}
+.n{
+    color: grey;
+}
+.cuadros{
+    display: flex;
+    justify-content: center;
+    margin: 10px 10px;
+}
+.cuadross{
+   display: flex;
+   justify-content: center;
+  
+}
+.blanco{
+    padding: 40px 0px ;
+    border-color: grey;
+    border-style:groove;
+    border-width: 5px;
+    background-color: white;
+    width: 15%;
+    margin: 10px 10px;
+}
+.blanco h1{
+    color: black;
+    font-size: 20px;
+}
+.tdd{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0px 100px;
+}
